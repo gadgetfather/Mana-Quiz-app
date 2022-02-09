@@ -43,11 +43,16 @@ body{
 .quiz-section .product-img-box{
     height: auto;
     width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .product-img-box img{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
 }
 .quiz-section .card-title{
     font-size: var(--fs4);
