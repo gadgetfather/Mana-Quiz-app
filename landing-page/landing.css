@@ -20,16 +20,22 @@ body{
 /* hero image */
 
 .section-title{
+    font-size: var(--fs1);
     margin-top: 1rem;
     text-align: center;
     border-bottom: 1px solid gainsboro;
 }
+
 /* quiz */
 .quiz-section{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+ .quiz-category{
+    text-align: center;
+    margin-top: .5rem;
 }
 .quiz-section .card-vertical{
     width: 17rem;
